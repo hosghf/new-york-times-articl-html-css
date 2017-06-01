@@ -45,7 +45,7 @@ nav {
      border-bottom: 1px solid #eee;
      box-shadow: 0px 1px 1px #aaa;
 }
-nav ul,li,img {
+nav ul, nav ul li, nav img {
     display: inline-block;
     vertical-align: middle;
 }
@@ -279,13 +279,6 @@ nav #right-btns li {
     border-top: 1px solid #888;
     padding: 16px 0 6px 6px; 
 }
-#right-articles {
-    display: inline-block;
-    width: 360px;
-    height: 476px;
-    float: right;
-    border-top: 1px solid #888;
-}
 #sec-bottom-link  #left-articles  div {
     width: 206px;
     height: 201px;
@@ -305,4 +298,105 @@ nav #right-btns li {
     margin: -2px 0 12px 0;
     font-size: 17px;
 }
-ol { list-style-type: decimal; }
+
+/* right article */
+ol {
+    list-style-type: decimal; 
+}
+#right-articles {
+    display: inline-block;
+    width: 360px;
+    height: 476px;
+    float: right;
+    border-top: 1px solid #888;
+}
+#right-articles ol {
+    margin-left: 10px;
+    font-size: 14px;
+}
+#right-articles ol li {
+    width: 340px;
+    height: 40px;
+    padding: 6px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#right-articles ol li a{
+    display: inline-block;
+    width:283px;
+    height: 39px;
+    vertical-align: middle;
+    margin-top: 5px;
+    color: #326891;
+}
+#right-articles ol li img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    float: right;
+}
+#right-articles > p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px ;
+}
+#related-link {
+  width: 680px;
+  height: 233px;
+  clear: both;
+  position: relative;
+  top: 40px;
+  border-top: 1px solid #ccc;
+  margin-bottom: 160px;
+}
+#related-link #header {
+    width: 100%;
+    height: 20px;
+    margin: 0 0 9px 0;
+    padding-top: 6px;
+}
+#related-link #header p {
+    display: inline;
+    font-weight: bold;
+    font-size: 16px;
+}
+#related-link #header p:nth-child(2) {
+    float: right;
+    margin: 0;
+    color: #326891;
+    font-size: 13px;
+}
+#related-link #content-rel-link {
+    width: 210px;
+    height: 183px;
+    font-size: 15px;
+    float: left;
+    margin: 8px;
+}
+#related-link #content-rel-link img {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 5px;
+}
+
+/* footer start here */
+
+footer {
+    width: 95%;
+    margin-left: 30px;
+}
+footer #foot-header {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+footer #foot-header a {
+    float: right;
+    font-size: 14px;
+}
+footer ul {
+    margin-right: 60px;
+    float: left;
+
+}

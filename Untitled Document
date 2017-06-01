@@ -1,0 +1,4 @@
+nav ul,li,img {
+    display: inline-block;
+    vertical-align: middle;
+}
